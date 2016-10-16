@@ -23,6 +23,8 @@ Plug 'guns/vim-sexp'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 
+Plug 'tpope/vim-fugitive'
+
 Plug 'ervandew/supertab'
 
 Plug 'tpope/vim-fugitive'
@@ -66,7 +68,6 @@ set showmatch
 set incsearch
 set hlsearch
 set ignorecase smartcase
-set cursorline
 set cmdheight=1
 set switchbuf=useopen
 set wrap
