@@ -47,6 +47,13 @@ let mapleader=','
 set pastetoggle=<Leader>t
 map <Leader>d <C-]>
 
+" font
+if has("gui_running")
+  if has("gui_gtk3")
+    set guifont=Fira\ Code\ 13
+  endif
+endif
+
 """"""""""
 " config
 """"""""""
